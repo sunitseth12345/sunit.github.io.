@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #demo{
+            display: flex;
+             color: blue;
+            background-color: rgb(207, 222, 45);
+             border: 3px solid green;
+            font-size:50px;
+            margin-top:18%; 
+            padding: 20px;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            padding-inline: 5%;
+            flex-wrap: wrap;
+  align-content: center;
+  margin-left:40%;
+        }
+    </style>
+</head>
+<body>
+    <center id="demo" >Hours</center>
+ 
+    <script>
+       ( function(){
+           setInterval(()=>{
+            var d=new Date().toLocaleTimeString();
+            document.getElementById("demo").innerHTML=d;
+           },1000)
+        })();    </script>
+</body>
+</html>
