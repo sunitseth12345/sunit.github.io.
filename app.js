@@ -8,79 +8,94 @@ const songs = [
         id:'1',
         songName:` On My Way <br>
         <div class="subtitle">Alan Walker</div>`,
-        poster: "img/1.jpg"
+//         poster: "img/1.jpg"
+        poster:" https://www.prokerala.com/news/photos/imgs/900x900/rapper-badshah-786963.jpg";
     },
     {
         id:'2',
         songName:` Alan Walker-Fade <br>
         <div class="subtitle">Alan Walker</div>`,
-        poster: "img/2.jpg"
+//         poster: "img/2.jpg"
+        poster:" https://wallpapercave.com/wp/wp6686648.jpg";
     },
     // all object type 
     {
         id:"3",
         songName: `Cartoon - On & On <br><div class="subtitle"> Daniel Levi</div>`,
-        poster: "img/3.jpg",
+//         poster: "img/3.jpg",
+        poster:"https://www.auditionform.in/wp-content/uploads/2021/01/12.-Arijit-Singh.jpg ";
     },
     {
         id:"4",
         songName: `Warriyo - Mortals <br><div class="subtitle">Mortals</div>`,
-        poster: "img/4.jpg",
+//         poster: "img/4.jpg",
+        poster:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMp69jbzWMLUj12-irIaWl2YIjttQupitk8w&usqp=CAU ";
     },
     {
         id:"5",
         songName: `Ertugrul Gazi <br><div class="subtitle">Ertugrul</div>`,
-        poster: "img/5.jpg",
+//         poster: "img/5.jpg",
+        poster:" https://yt3.ggpht.com/ey8Ebfxs89H58mYmCzniBD7024ysKJeYc6FLgospInsrx9NebNvTbpZpWZlajZ79sT7icgUZGw=s900-c-k-c0x00ffffff-no-rj";
     },
     {
         id:"6",
         songName: `Electronic Music <br><div class="subtitle">Electro</div>`,
-        poster: "img/6.jpg",
+//         poster: "img/6.jpg",
+        poster:"https://www.businessinsider.in/thumb/msid-76510703,width-500,resizemode-4,imgsize=97634/A-R-Rahman.jpg";
     },
     {
         id:"7",
         songName: `Agar Tum Sath Ho <br><div class="subtitle">Tamashaa</div>`,
-        poster: "img/7.jpg",
+//         poster: "img/7.jpg",
+        poster:"https://c.saavncdn.com/artists/Jubin_Nautiyal_002_20180507091834_500x500.jpg " ;
     },
     {
         id:"8",
         songName: `Suna Hai <br><div class="subtitle">Neha Kakker</div>`,
-        poster: "img/8.jpg",
+//         poster: "img/8.jpg",
+         poster:"https://resize.indiatvnews.com/en/resize/newbucket/715_-/2018/11/image-2017-04-12-1-1543069911.jpg " ;
     },
     {
         id:"9",
         songName: `Dilber <br><div class="subtitle">Satyameva Jayate</div>`,
-        poster: "img/9.jpg",
+//         poster: "img/9.jpg",
+          poster:"https://rukminim1.flixcart.com/image/416/416/l0tweq80/poster/j/b/d/medium-music-justin-bieber-rock-singer-hd-wallpaper-on-fine-art-original-imagcj83jzztzyud.jpeg?q=70 " ;
     },
     {
         id:"10",
         songName: `Duniya <br><div class="subtitle">Luka Chuppi</div>`,
-        poster: "img/10.jpg",
+//         poster: "img/10.jpg",
+          poster:"https://i2.wp.com/bechuzi.com/wp-content/uploads/2021/05/Guru-Randhawa.jpg?fit=640%2C360&ssl=1 " ;
     },
     {
         id:"11",
         songName: `Lagdi Lahore Di <br><div class="subtitle">Street Dancer 3D</div>`,
-        poster: "img/11.jpg",
+//         poster: "img/11.jpg",
+          poster:" https://drytickets.com.au/assets/upload/750/450/60/celebrities/414-anupam-roy.jpg" ;
     },
     {
         id:"12",
         songName: `Putt Jatt Da <br><div class="subtitle">Putt Jatt Da</div>`,
-        poster: "img/12.jpg",
+//         poster: "img/12.jpg",
+          poster:" https://static.toiimg.com/photo/89637175.cms" ;
     },
     {
         id:"13",
         songName: `Baarishein <br><div class="subtitle">Atif Aslam</div>`,
-        poster: "img/13.jpg",
+//         poster: "img/13.jpg",
+          poster:"https://wikibio.in/wp-content/uploads/2019/05/Kailah-Kher.jpg " ;
     },
     {
         id:"14",
         songName: `Vaaste <br><div class="subtitle">Dhvani Bhanushali</div>`,
-        poster: "img/14.jpg",
+//         poster: "img/14.jpg",
+          poster:"https://behtareen.pk/wp-content/uploads/2022/10/mika-singh-performance-at-karachi-wedding-sparks-outrage-759.jpeg " ;
     },
     {
         id:"15",
         songName: `Lut Gaye <br><div class="subtitle">Jubin Nautiyal</div>`,
-        poster: "img/15.jpg",
+//         poster: "img/15.jpg",
+          poster:" https://qph.cf2.quoracdn.net/main-qimg-ecaaeb2d55b510eb4ec85eb2e2c48dee-lq" ;
     },
 ]
 
