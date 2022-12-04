@@ -1,4 +1,5 @@
-const music = new Audio('vande.mp3');
+// const music = new Audio('vande.mp3');
+const music = new Audio('https://pwdown.info/12515/Vande Matram - AR Rehman 320Kbps.mp3');
 
 // create Array 
 
@@ -128,7 +129,10 @@ Array.from(document.getElementsByClassName('playListPlay')).forEach((element)=>{
         makeAllPlays();
         e.target.classList.remove('bi-play-circle-fill');
         e.target.classList.add('bi-pause-circle-fill');
-        music.src = `audio/${index}.mp3`;
+        
+//         music.src = `audio/${index}.mp3`;
+        
+         music.src =  "https://songs6.vlcmusic.com/download.php?track_id=42128&amp;format=320";
         poster_master_play.src =`img/${index}.jpg`;
         music.play();
         let song_title = songs.filter((ele)=>{
@@ -233,7 +237,10 @@ back.addEventListener('click', ()=>{
     if (index < 1) {
         index = Array.from(document.getElementsByClassName('songItem')).length;
     }
-    music.src = `audio/${index}.mp3`;
+    
+//     music.src = `audio/${index}.mp3`;
+   music.src =  "https://songs6.vlcmusic.com/download.php?track_id=36749&amp;format=48";
+    
     poster_master_play.src =`img/${index}.jpg`;
     music.play();
     let song_title = songs.filter((ele)=>{
@@ -258,7 +265,10 @@ next.addEventListener('click', ()=>{
     if (index > Array.from(document.getElementsByClassName('songItem')).length) {
         index = 1;
         }
-    music.src = `audio/${index}.mp3`;
+    
+//     music.src = `audio/${index}.mp3`;
+    music.src = "https://songs6.vlcmusic.com/download.php?track_id=45172&amp;format=48";
+    
     poster_master_play.src =`img/${index}.jpg`;
     music.play();
     let song_title = songs.filter((ele)=>{
