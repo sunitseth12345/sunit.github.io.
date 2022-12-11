@@ -102,50 +102,49 @@ const music = new Audio('https://pwdown.info/12515/Vande Matram - AR Rehman 320K
 
 let musics = [
   {
-    trackName: "Losing Control",
-    artist: "Villain of the story",
-    album: "Divided",
+       id:'1',
+        songName:` On My Way <br>
+        <div class="subtitle">Alan Walker</div>`,
     coverImage: "https://i.postimg.cc/y62Drhym/image.jpg",
     audioSource:
       "https://cdns-preview-4.dzcdn.net/stream/c-465dbacd317d67cc6a4d1adb22355970-2.mp3"
   },
   {
-    trackName: "Senden Baska",
-    artist: "Serhet Durmus",
-    album: "Singles",
+   id:'2',
+        songName:` On My Way <br>
+        <div class="subtitle">Alan Walker</div>`,
     coverImage: "https://i.postimg.cc/cCtNnnKZ/image.jpg",
     audioSource:
       "https://cdns-preview-9.dzcdn.net/stream/c-94e53a428fd9dbf35c5b06d800447c2a-4.mp3"
   },
   {
-    trackName: "I don't care",
-    artist: "Apocalyptica",
-    album: "Singles",
+    id:'3',
+        songName:` On My Way <br>
+        <div class="subtitle">Alan Walker</div>`,
     coverImage: "https://i.postimg.cc/BZj8g7HZ/image.jpg",
     audioSource:
       "https://cdns-preview-d.dzcdn.net/stream/c-dbbdb0dd57e34c52b2379fb69bc7da4f-3.mp3"
   },
-  {
-    trackName: "Monster",
-    artist: "Fight the Fade",
-    album: "APOPHYSITIS",
+  { id:'4',
+        songName:` On My Way <br>
+        <div class="subtitle">Alan Walker</div>`,
     coverImage: "https://i.postimg.cc/BnS4htk5/image.jpg",
     audioSource:
       "https://cdns-preview-4.dzcdn.net/stream/c-46413a2a74ddd53a2f13ef2b853202f7-3.mp3"
   },
 
   {
-    trackName: "Dance With the Devil",
-    artist: "Breaking Benjamin",
-    album: "Phobia",
+    id:'5',
+        songName:` On My Way <br>
+        <div class="subtitle">Alan Walker</div>`,
     coverImage: "https://i.postimg.cc/15Xzmj0J/image.jpg",
     audioSource:
       "https://cdns-preview-b.dzcdn.net/stream/c-b2bbd0db3fb9e1314ef56dfc11c86a65-5.mp3"
   },
   {
-    trackName: "The Catalyst",
-    artist: "Linkin Park",
-    album: "A Thousand Sun",
+    id:'6',
+        songName:` On My Way <br>
+        <div class="subtitle">Alan Walker</div>`,
     coverImage: "https://i.postimg.cc/FK3jRqxM/image.jpg",
     audioSource:
       "https://cdns-preview-8.dzcdn.net/stream/c-8930ac6a4a087666b651b8aad5cd4a26-5.mp3"
