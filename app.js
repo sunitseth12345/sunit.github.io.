@@ -100,7 +100,7 @@ const music = new Audio('https://pwdown.info/12515/Vande Matram - AR Rehman 320K
 // ]
 
 
-let musics = [
+let songs = [
   {
        id:'1',
         songName:` On My Way <br>
